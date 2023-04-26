@@ -85,4 +85,5 @@ First Extract the file from GitHub and import it into eclipse IDE and you can ru
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Skill-Lync
-- Tutor Channel
+- Google sources
+- Youtube
