@@ -33,18 +33,22 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Fully Functional Backend Project for Employee Management. The technologies used in this project are Core Java, Spring Boot, Hibernate JPA, MYSQL DataBase. There are a few important packages in the project are, Grean Bus System Package is first page from which the User can Book the Bus or Admin can Add the Seats, Seats its another Panel When we Select Add seat Option from the Green Bus System by entering the date and Bus no we can add the Seats of Bus for the entered Date by selecting the Bus Booking Package from where we can See the available Seats and Booked seats from JTable1 and we can Bokk the Seat by selecting the unbooked seat from the Table and by entering the Name and Mobile no on the Jpanel, By Loading JDBC Driver and Establishing Connectivity with MySQL DataBase we Can Store the Data of Users and Availability of the Bus of respective Date and Bus No. SkillLync helped me by providing the wire-frames for all relevant feature pages
+The purpose of this project is to save the employee credentials in the web application, this project provides the features where an Admin or HR manager can create each individual employee details and retrieve them whenever it is required to them.
+In order to achieve this functionality we have developed the code in such a way that, user can perform each individual operation using different API's.
+
+This may not serve a full stack we application project, but this is a complete backend code where a frontend developer can use the end point connectors from here and design the web page using whatever frontend technolgies to serve a better user interface to the user. but for functionality testing we have used Postman API platform and successfully tested and finalized all the API's.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-When run the the Code on your System, First One Panel will Open There will be 2 options one is for Booking the Bus and another one is for adding the seats into Bus Booking System. By clicking on Book Bus Button you can Book the bus by clicking on available Seats on Otherside By clicking on Add Seat Button you can Add Seats into Bus Booking System by ENtering the Bus no and By selecting the Date.
+- When you run the code on the eclipse IDE, spring boot application will be get started with the server port number.
+- With the help of Hibernate JPA database will also be get connected.
+- Use that port number with http url and test with all end point connectors that are available in Controller class.
+- See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-First You need to install Apache Netbeans 17 you can download it by using the below link 
-https://netbeans.apache.org/download/index.html
-Next you need to install MySQL Server, MySQL Shell, MySQL WorkBench 
-and you need download some of the Jar files
-i.e, JCalendar and mysql connector Jar file
-https://dev.mysql.com/downloads/installer/
+- First You need to download all the softwares provide in the [Built Using](#built_using) section links.
+- Installation is very simple, steps are available in the youtube as well as in google also.
+- But remember the port number of the MySQL server, because you need to provide that to database connectivity.
+- Also remeber the port numbers of Tomcat server for http connection.
 
 ### Installing
 
@@ -66,7 +70,7 @@ First you need Open Apache Netbeans application and then you can import this Pro
 that is MySQL Connector liberary and another one is Jcalendar liberary and then another one is you need to Create one Database of name GreenBus and inside of that you need to create 2 tables, one is bookings table containing of 6 columns of name Id, BusNo, Seat, Customer, Mobile, Date here another one Seats table which will contain 5 tables of name Id, BusNo, Seat, Date, Status. In both the table Seat column reperesents the Seat No. By using Left Join Query we can get required output in the Booking Panel.   
 
 ## 🎈 Usage <a name="usage"></a>
-The main Use of this BusBooking System is that Bus Contractor can add the Seats into Bus on the respective days and User Can book the seats of their required Bus by entering the Bus No and by selecting the Date after that they can see the Status of Bus Seats Wheather seat is Booked or Unbooked. By Selecting UnBooked Seat and by Entering their Details they can Book the Seat.
+The main Use of this is a complete backend code where a frontend developer can use the end point connectors from here and design the web page using whatever frontend technolgies to serve a better user interface to the user. but for functionality testing we have used Postman API platform and successfully tested and finalized all the API's.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 First Extract the file from GitHub and import it into eclipse IDE and you can run the program, So that it will automatically generate the database table and then you can run the code in eclipse IDE or Spring tool suite, after that test the API's in the Postman API platform.
