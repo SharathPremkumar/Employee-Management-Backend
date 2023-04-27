@@ -45,29 +45,32 @@ This may not serve a full stack we application project, but this is a complete b
 - See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-- First You need to download all the softwares provide in the [Built Using](#built_using) section links.
+- First You need to download all the softwares provided links in the [Built Using](#built_using) section.
 - Installation is very simple, steps are available in the youtube as well as in google also.
 - But remember the port number of the MySQL server, because you need to provide that to database connectivity.
 - Also remeber the port numbers of Tomcat server for http connection.
 
 ### Installing
 
-Fist Click ond NetBeans URL and Install it and Then
-After Completing the download start the SetUP 
-After SetUp has been Started you need to select on Custom and click on Next
-You can see the Available Products
-In the Click on MySQL Server and go inside of it and Drag it to the Product to be installed Box
-Do the Same for MySQL Application and MySQL Shell and Click on Next 
-After that You can see the Installation Set Up and click on Execute and Product will install one by one 
-After completing the SetUp click on next and on Product Configuration Click on Next 
-Now Type and networking will be visible and there you Check for port no 3306 and keep the default and Click on next 
-Net set Root password keep Clicking on Next and Execute Your MySQL installation will be completed .
-Then Download the MYSQL Connectors Jar file and JCalendar Jar file from Same MySQL Website   and then Extract it and keep it in one folder
+- Fist Click ond jdk URL and Install it and Then install eclipse
+- After Completing the download start the SetUP 
+- After SetUp has been Started you need to select on Custom and click on Next
+- You can see the Available Products
+- In the Click on MySQL Server and go inside of it and Drag it to the Product to be installed Box
+- Do the Same for MySQL Application and MySQL Shell and Click on Next 
+- After that You can see the Installation Set Up and click on Execute and Product will install one by one 
+- After completing the SetUp click on next and on Product Configuration Click on Next 
+- Now Type and networking will be visible and there you Check for port no 3306 and keep the default and Click on next 
+- Next set Root password keep Clicking on Next and Execute Your MySQL installation will be completed .
+- Then Download the MYSQL Connectors Jar file and JCalendar Jar file from Same MySQL Website   and then Extract it and keep it in one folder.
+- Install the Tomcat Server and check the installation using the http url in google once.
+- Next install Postman and ready to start testing the API's.
 
 
 ## 🔧 Running the tests <a name = "tests"></a>
-First you need Open Apache Netbeans application and then you can import this Project from Git Hub and you can also add all the liberaries which you downloaded
-that is MySQL Connector liberary and another one is Jcalendar liberary and then another one is you need to Create one Database of name GreenBus and inside of that you need to create 2 tables, one is bookings table containing of 6 columns of name Id, BusNo, Seat, Customer, Mobile, Date here another one Seats table which will contain 5 tables of name Id, BusNo, Seat, Date, Status. In both the table Seat column reperesents the Seat No. By using Left Join Query we can get required output in the Booking Panel.   
+As we discussed earlier for testing the developed code we are using Postman API platform, there use the end point connectors that are defined in the connector class and perform the CRUD operation 
+Data can be saved using Post method and write the data in the body using JSON format.
+Data can be retrieved, updated and deleted using GET method through JSON format.
 
 ## 🎈 Usage <a name="usage"></a>
 The main Use of this is a complete backend code where a frontend developer can use the end point connectors from here and design the web page using whatever frontend technolgies to serve a better user interface to the user. but for functionality testing we have used Postman API platform and successfully tested and finalized all the API's.
